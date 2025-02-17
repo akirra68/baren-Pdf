@@ -3,7 +3,7 @@ import fitz
 import re
 import msvcrt
 
-folder_path = "D:/TEST"
+folder_path = os.path.dirname(os.path.abspath(__file__))
 format_text_name = "Name :"
 format_text_no = "No. :"
 
